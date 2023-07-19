@@ -3,7 +3,7 @@ kind: Component
 metadata:
   annotations:
     'backstage.io/kubernetes-id': developer-portal
-    'tekton.dev/build-namespace': karthik-jk-tenant
+    'tekton.dev/build-namespace': test-dev
   name: developer-portal
   description: An example of a Backstage application.
   # Example for optional annotations
