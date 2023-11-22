@@ -4,7 +4,7 @@ metadata:
   annotations:
     'backstage.io/kubernetes-id': developer-portal
     'tekton.dev/build-namespace': test-dev
-     janus-idp.io/tekton: developer-portal
+    'janus-idp.io/tekton': developer-portal
 
   name: developer-portal
   description: An example of a Backstage application.
