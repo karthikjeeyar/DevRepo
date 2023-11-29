@@ -3,7 +3,7 @@ kind: Component
 metadata:
   annotations:
     'backstage.io/kubernetes-id': developer-portal
-    'tekton.dev/build-namespace': test-dev
+    'tekton.dev/build-namespace': karthk
     'janus-idp.io/tekton': developer-portal
 
   name: developer-portal
