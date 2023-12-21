@@ -5,7 +5,7 @@ metadata:
     'backstage.io/kubernetes-id': developer-portal
     'tekton.dev/build-namespace': karthik
     'janus-idp.io/tekton': developer-portal
-    'quay.io/repository-slug': quayadmin/my-quarkus-app
+    'quay.io/repository-slug': stonesoupuicluster/uidev-user-workload
   name: developer-portal
   description: An example of a Backstage application.
   # Example for optional annotations
