@@ -6,7 +6,7 @@ metadata:
     'tekton.dev/build-namespace': karthik
     'janus-idp.io/tekton': spring-test-app
     'quay.io/repository-slug': stonesoupuicluster/uidev-user-workload
-  name: spring-test-app
+  name: sb-test-app
   description: An example of a Backstage application.
   # Example for optional annotations
   # annotations:
