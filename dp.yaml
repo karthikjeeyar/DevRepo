@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    'backstage.io/kubernetes-id': developer-portal
+    'backstage.io/kubernetes-id': spring-app
     'tekton.dev/build-namespace': karthik
     'janus-idp.io/tekton': developer-portal
     'quay.io/repository-slug': stonesoupuicluster/uidev-user-workload
