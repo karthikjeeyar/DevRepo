@@ -4,7 +4,7 @@ metadata:
   annotations:
     'backstage.io/kubernetes-id': spring-test-app
     'tekton.dev/build-namespace': karthik
-    'janus-idp.io/tekton': developer-portal
+    'janus-idp.io/tekton': spring-test-app
     'quay.io/repository-slug': stonesoupuicluster/uidev-user-workload
   name: spring-test-app
   description: An example of a Backstage application.
