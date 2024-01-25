@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    'backstage.io/kubernetes-id': springboot-app
+    'backstage.io/kubernetes-id': mysbtest-app
     'tekton.dev/build-namespace': karthik
-    'janus-idp.io/tekton': springboot-app
+    'janus-idp.io/tekton': mysbtest-app
     'quay.io/repository-slug': stonesoupuicluster/uidev-user-workload
-  name: springboot-app
+  name: mysbtest-app
   description: An example of a Backstage application.
   # Example for optional annotations
   # annotations:
