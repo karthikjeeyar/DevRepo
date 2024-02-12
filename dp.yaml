@@ -3,8 +3,8 @@ kind: Component
 metadata:
   annotations:
     'backstage.io/kubernetes-id': my-quarkus-app
-    'tekton.dev/build-namespace': karthik
-    'janus-idp.io/tekton': sbtestapp
+    'tekton.dev/build-namespace': my-quarkus-app-dev
+    'janus-idp.io/tekton': my-quarkus-app
     'quay.io/repository-slug': stonesoupuicluster/uidev-user-workload
   name: my-quarkus-app
   description: An example of a Backstage application.
