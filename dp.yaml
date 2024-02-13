@@ -14,5 +14,5 @@ metadata:
   #   backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: karthik
+  owner: karthikjeeyar
   lifecycle: production
