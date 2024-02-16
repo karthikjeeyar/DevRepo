@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    'backstage.io/kubernetes-id': my-quarkus-app
-    'tekton.dev/build-namespace': my-quarkus-app-dev
-    'janus-idp.io/tekton': my-quarkus-app
+    'backstage.io/kubernetes-id': quarkus-app
+    'tekton.dev/build-namespace': quarkus-app-dev
+    'janus-idp.io/tekton': quarkus-app
     'quay.io/repository-slug': stonesoupuicluster/uidev-user-workload
-  name: my-quarkus-app
+  name: quarkus-app
   description: An example of a Backstage application.
   # Example for optional annotations
   # annotations:
