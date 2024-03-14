@@ -5,7 +5,7 @@ metadata:
     'backstage.io/kubernetes-id': quarkus-app
     'tekton.dev/build-namespace': quarkus-app-dev
     'janus-idp.io/tekton': quarkus-app
-    'quay.io/repository-slug': stonesoupuicluster/uidev-user-workload
+    'quay.io/repository-slug': karthik_jk/backstage-showcase
   name: quarkus-app
   description: An example of a Backstage application.
   # Example for optional annotations
