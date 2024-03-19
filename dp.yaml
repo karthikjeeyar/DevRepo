@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    'argocd/app-name': quarkus-app
+     argocd/app-selector: rht-gitops.com/janus-argocd=quarkus-app-bootstrap
     'backstage.io/kubernetes-id': quarkus-app
     'tekton.dev/build-namespace': quarkus-app-dev
     'janus-idp.io/tekton': quarkus-app
