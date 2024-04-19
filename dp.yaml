@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
+    gitlab.com/project-slug: development/quarkus-app
     'argocd/proxy-url': '/argocd/api'
     'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
     'backstage.io/kubernetes-id': quarkus-app
