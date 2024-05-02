@@ -10,6 +10,9 @@ metadata:
     'tekton.dev/build-namespace': quarkus-app-dev
     'janus-idp.io/tekton': quarkus-app
     'quay.io/repository-slug': karthik_jk/console-customization-plugin
+    'jenkins.io/job-full-name': my-pipeline
+ 
+
   name: quarkus-app
   description: An example of a Backstage application.
   # Example for optional annotations
