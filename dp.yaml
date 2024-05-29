@@ -12,6 +12,9 @@ metadata:
     'quay.io/repository-slug': karthik_jk/console-customization-plugin
     'jenkins.io/job-full-name': my-pipeline
     'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
+    'gitlab.com/project-slug': development/quarkus-app
+
+
 
   name: gha-quarkus-app
   description: An example of a Backstage application.
