@@ -13,7 +13,7 @@ metadata:
     'jenkins.io/job-full-name': my-pipeline
     'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
 
-  name: quarkus-app
+  name: test-quarkus-app
   description: An example of a Backstage application.
   # Example for optional annotations
   # annotations:
