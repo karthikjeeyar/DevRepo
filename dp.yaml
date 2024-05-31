@@ -19,7 +19,7 @@ metadata:
     # 'dev.azure.com/build-definition': dc-metro-app
     'dev.azure.com/project-repo': dc-metro-app/dc-metro-app
 
-  name: gha-quarkus-app
+  name: my-quarkus-app
   description: An example of a Backstage application.
   # Example for optional annotations
   # annotations:
