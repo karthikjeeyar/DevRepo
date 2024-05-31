@@ -13,9 +13,9 @@ metadata:
     'quay.io/repository-slug': karthik_jk/console-customization-plugin
     'jenkins.io/job-full-name': 'my-pipeline'
     'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
-
-    
-    'dev.azure.com/project': karthikjk11
+  
+    'dev.azure.com/host-org': 'dev.azure.com/karthikjk11'
+    'dev.azure.com/project': dc-metro-app
     'dev.azure.com/build-definition': dc-metro-app
 
   name: gha-quarkus-app
