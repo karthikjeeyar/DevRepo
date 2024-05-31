@@ -11,9 +11,12 @@ metadata:
     'tekton.dev/build-namespace': quarkus-app-dev
     'janus-idp.io/tekton': quarkus-app
     'quay.io/repository-slug': karthik_jk/console-customization-plugin
-    'jenkins.io/job-full-name': my-pipeline
+    'jenkins.io/job-full-name': 'my-pipeline'
     'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
 
+    
+    'dev.azure.com/project': karthikjk11
+    'dev.azure.com/build-definition': dc-metro-app
 
   name: gha-quarkus-app
   description: An example of a Backstage application.
