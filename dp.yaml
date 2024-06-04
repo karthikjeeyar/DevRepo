@@ -19,7 +19,7 @@ metadata:
     # 'dev.azure.com/build-definition': dc-metro-app
     'dev.azure.com/project-repo': dc-metro-app/dc-metro-app
 
-    'nexus-repository-manager/docker.image-name': nexus-registry
+    'nexus-repository-manager/docker.image-name': repository/docker-hub/hello-world
 
 
   name: my-quarkus-app
