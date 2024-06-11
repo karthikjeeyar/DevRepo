@@ -21,6 +21,8 @@ metadata:
 
     'nexus-repository-manager/docker.image-name': sample/helloworld
 
+    'jfrog-artifactory/image-name': local/generic-local
+
   name: my-quarkus-app
   description: An example of a Backstage application.
   # Example for optional annotations
