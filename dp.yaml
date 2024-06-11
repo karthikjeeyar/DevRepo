@@ -21,7 +21,7 @@ metadata:
 
     'nexus-repository-manager/docker.image-name': sample/helloworld
 
-    'jfrog-artifactory/image-name':  sample/helloworld
+    'jfrog-artifactory/image-name':  helloworld
 
   name: my-quarkus-app
   description: An example of a Backstage application.
