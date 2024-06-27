@@ -2,14 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    'gitlab.com/instance': 'gitlab-gitlab.apps.cluster-7s5b7.sandbox2830.opentlc.com'
-    'gitlab.com/project-slug': development/quarkus-app
+    #'gitlab.com/instance': 'gitlab-gitlab.apps.cluster-7s5b7.sandbox2830.opentlc.com'
+    #'gitlab.com/project-slug': development/quarkus-app
     'argocd/proxy-url': '/argocd/api'
     'argocd/instance-name': 'main'
     'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
     'backstage.io/kubernetes-id': quarkus-app
-    'tekton.dev/build-namespace': quarkus-app-dev
-    'janus-idp.io/tekton': quarkus-app
+    #'tekton.dev/build-namespace': quarkus-app-dev
+    #'janus-idp.io/tekton': quarkus-app
     'quay.io/repository-slug': karthik_jk/console-customization-plugin
     'jenkins.io/job-full-name': 'calculator-app-pipeline'
     #'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
