@@ -31,5 +31,5 @@ metadata:
   #   backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: karthikjeeyar
+  owner: janus-authors
   lifecycle: production
