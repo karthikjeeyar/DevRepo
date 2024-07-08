@@ -10,7 +10,7 @@ metadata:
     'backstage.io/kubernetes-id': quarkus-app
     'tekton.dev/build-namespace': quarkus-app-dev
     'janus-idp.io/tekton': quarkus-app
-    'quay.io/repository-slug': quayadmin/my-quarkus-app
+    'quay.io/repository-slug': karthik_jk/nodeapp
     'jenkins.io/job-full-name': 'calculator-app-pipeline'
     #'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
   
