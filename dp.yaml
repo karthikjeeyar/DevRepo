@@ -5,9 +5,10 @@ metadata:
     #'gitlab.com/instance': 'gitlab-gitlab.apps.cluster-7s5b7.sandbox2830.opentlc.com'
     #'gitlab.com/project-slug': development/quarkus-app
     'argocd/proxy-url': '/argocd/api'
-    'argocd/instance-name': 'main'
-    'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
-    # 'argocd/app-name': test-app
+    # 'argocd/instance-name': 'main'
+    # 'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
+    'argocd/app-name': test-app
+    'argocd/instance-name': 'gitops'
     'backstage.io/kubernetes-id': quarkus-app
     'tekton.dev/build-namespace': quarkus-app-dev
     'janus-idp.io/tekton': quarkus-app
@@ -24,7 +25,7 @@ metadata:
 
     #'jfrog-artifactory/image-name':  helloworld
 
-  name: test-quarkus-app
+  name: test-app
   description: An example of a Backstage application.
   # Example for optional annotations
   # annotations:
