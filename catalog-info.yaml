@@ -1,0 +1,37 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    #'gitlab.com/instance': 'gitlab-gitlab.apps.cluster-7s5b7.sandbox2830.opentlc.com'
+    #'gitlab.com/project-slug': development/quarkus-app
+    'argocd/proxy-url': '/argocd/api'
+     'argocd/instance-name': 'main'
+     'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
+#     'argocd/app-name': test-app
+#     'argocd/instance-name': 'gitops'
+    'backstage.io/kubernetes-id': quarkus-app
+    'tekton.dev/build-namespace': quarkus-app-dev
+    'janus-idp.io/tekton': quarkus-app
+    'quay.io/repository-slug': karthik_jk/node-test
+    'jenkins.io/job-full-name': 'calculator-app-pipeline'
+    #'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
+  
+    #'dev.azure.com/host-org': 'dev.azure.com/karthikjk11'
+    #'dev.azure.com/project': dc-metro-app
+    # 'dev.azure.com/build-definition': dc-metro-app
+    #'dev.azure.com/project-repo': dc-metro-app/dc-metro-app
+
+    #'nexus-repository-manager/docker.image-name': sample/helloworld
+
+    #'jfrog-artifactory/image-name':  helloworld
+
+  name: test-quarkus-app
+  description: An example of a Backstage application.
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: janus-authors
+  lifecycle: production
