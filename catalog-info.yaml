@@ -6,7 +6,7 @@ metadata:
     #'gitlab.com/project-slug': development/quarkus-app
     'argocd/proxy-url': '/argocd/api'
     'argocd/instance-name': 'main'
-    'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
+    # 'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
     'argocd/app-name': test-app
     # 'argocd/instance-name': 'gitops'
     'backstage.io/kubernetes-id': quarkus-app
