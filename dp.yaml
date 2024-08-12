@@ -9,7 +9,10 @@ metadata:
     'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
     # 'argocd/app-name': quarkus-app
     'argocd/instance-name': 'main'
-    'backstage.io/kubernetes-id': quarkus-app
+    # 'backstage.io/kubernetes-id': quarkus-app
+    'backstage.io/kubernetes-label-selector': app=canary-rollout-analysis
+
+
     'tekton.dev/build-namespace': quarkus-app-dev
     'janus-idp.io/tekton': quarkus-app
     'quay.io/repository-slug': karthik_jk/node-test
