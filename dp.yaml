@@ -10,7 +10,7 @@ metadata:
     # 'argocd/app-name': quarkus-app
     'argocd/instance-name': 'main'
     'backstage.io/kubernetes-id': quarkus-app
-    'backstage.io/kubernetes-label-selector': app=canary-rollout-analysis
+    # 'backstage.io/kubernetes-label-selector': app=canary-rollout-analysis
 
 
     'tekton.dev/build-namespace': quarkus-app-dev
