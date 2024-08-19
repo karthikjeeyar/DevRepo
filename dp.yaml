@@ -4,11 +4,9 @@ metadata:
   annotations:
     #'gitlab.com/instance': 'gitlab-gitlab.apps.cluster-7s5b7.sandbox2830.opentlc.com'
     #'gitlab.com/project-slug': development/quarkus-app
-    'argocd/proxy-url': '/argocd/api'
-    # 'argocd/instance-name': 'main'
+    'argocd/instance-name': 'main'
     'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
     # 'argocd/app-name': quarkus-app
-    'argocd/instance-name': 'main'
     'backstage.io/kubernetes-id': quarkus-app
     # 'backstage.io/kubernetes-label-selector': app=canary-rollout-analysis
 
