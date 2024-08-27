@@ -6,7 +6,7 @@ metadata:
     #'gitlab.com/project-slug': development/quarkus-app
     'argocd/instance-name': 'default'
     # 'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
-    'argocd/app-name': quarkus-app-dev
+    'argocd/app-name': quarkus-app
     'backstage.io/kubernetes-id': quarkus-app
     # 'backstage.io/kubernetes-label-selector': app=canary-rollout-analysis
 
