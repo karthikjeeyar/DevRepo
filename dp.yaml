@@ -4,7 +4,7 @@ metadata:
   annotations:
     #'gitlab.com/instance': 'gitlab-gitlab.apps.cluster-7s5b7.sandbox2830.opentlc.com'
     #'gitlab.com/project-slug': development/quarkus-app
-    'argocd/instance-name': 'main'
+    'argocd/instance-name': 'default'
     # 'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
     'argocd/app-name': quarkus-app-dev
     'backstage.io/kubernetes-id': quarkus-app
