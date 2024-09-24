@@ -8,8 +8,8 @@ metadata:
     # 'argocd/app-selector': rht-gitops.com/janus-argocd=quarkus-app-bootstrap
     'argocd/app-name': canary-rollout-analysis
     # 'argocd/app-selector': rhtap/gitops=rhtap-nodeapp
-    'backstage.io/kubernetes-id': canary-rollout-analysis
-    # 'backstage.io/kubernetes-label-selector': app=canary-rollout-analysis
+    # 'backstage.io/kubernetes-id': canary-rollout-analysis
+    'backstage.io/kubernetes-label-selector': backstage.io/kubernetes-id=canary-rollout-analysis
 
 
     'tekton.dev/build-namespace': quarkus-app-dev
@@ -27,7 +27,7 @@ metadata:
 
     #'jfrog-artifactory/image-name':  helloworld
 
-  name: test-canary-app
+  name: test-app
   description: An example of a Backstage application.
   # Example for optional annotations
   # annotations:
