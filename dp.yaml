@@ -9,7 +9,6 @@ metadata:
     # 'argocd/app-name': canary-rollout-analysis
     # 'argocd/app-selector': rhtap/gitops=rhtap-nodeapp
     'backstage.io/kubernetes-id': test-app
-    'backstage.io/kubernetes-label-selector': app=ms1,app=ms2
 
 
     'tekton.dev/build-namespace': quarkus-app-dev
