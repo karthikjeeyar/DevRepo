@@ -17,6 +17,8 @@ metadata:
     'quay.io/repository-slug':  janus-idp/backstage-showcase
     'jenkins.io/job-full-name': 'calculator-app-pipeline'
     'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
+    npm/package: '@backstage/plugin-catalog-reacts'
+
   
     #'dev.azure.com/host-org': 'dev.azure.com/karthikjk11'
     #'dev.azure.com/project': dc-metro-app
