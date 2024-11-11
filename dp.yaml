@@ -18,6 +18,7 @@ metadata:
     'jenkins.io/job-full-name': 'calculator-app-pipeline'
     'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
     npm/package: '@backstage/plugin-catalog-reacts'
+    backstage.io/techdocs-ref: dir:.
 
   
     #'dev.azure.com/host-org': 'dev.azure.com/karthikjk11'
