@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: janus-authors
+  description: The infra business unit
+spec:
+  type: business-unit
+  profile:
+    displayName: Janus authors
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: []
+  members: []
