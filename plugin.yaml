@@ -9,5 +9,6 @@ spec:
   type: backend-plugin
   lifecycle: production
   owner: redhat
+  developer: Red Hat
   packages:
-    - packageName: '@backstage/plugin-search-backend'
+    - '@backstage/plugin-search-backend'
