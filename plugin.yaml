@@ -5,6 +5,7 @@ metadata:
   title: Search
   description: TechDocs is Spotify’s homegrown docs-like-code solution built directly into Backstage. Engineers write their documentation in Markdown files which live together with their code - and with little configuration get a nice-looking doc site in Backstage.
 spec:
+  icon: https://janus-idp.io/images/plugins/3scale.svg
   type: backend-plugin
   lifecycle: production
   owner: redhat
