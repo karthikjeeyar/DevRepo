@@ -1,0 +1,12 @@
+apiVersion: marketplace.backstage.io/v1alpha1
+kind: Plugin
+metadata:
+  name: search
+  title: Search
+  description: TechDocs is Spotify’s homegrown docs-like-code solution built directly into Backstage. Engineers write their documentation in Markdown files which live together with their code - and with little configuration get a nice-looking doc site in Backstage.
+spec:
+  type: backend-plugin
+  lifecycle: production
+  owner: redhat
+  packages:
+    - packageName: '@backstage/plugin-search-backend'
