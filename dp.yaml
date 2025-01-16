@@ -28,7 +28,7 @@ metadata:
 
     #'nexus-repository-manager/docker.image-name': sample/helloworld
 
-    'jfrog-artifactory/image-name':  bootstrap
+    'jfrog-artifactory/image-name':  rhtap-docker-local/bootstrap
 
   name: test-app
   description: An example of a Backstage application.
