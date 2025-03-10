@@ -5,6 +5,8 @@ metadata:
   name: test-plugin
   title: Test plugin
   description: View container image details from Quay in Backstage.
+  annotations:
+    extensions.backstage.io/certified-by: Red Hat
 spec:
   icon: https://janus-idp.io/images/plugins/quay.svg
   author: Red Hat
