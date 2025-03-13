@@ -22,15 +22,12 @@ metadata:
     #'dev.azure.com/project-repo': dc-metro-app/dc-metro-app
 
     #'nexus-repository-manager/docker.image-name': sample/helloworld
-
     #'jfrog-artifactory/image-name':  helloworld
 
-  name: test-quarkus-app
-  description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
     backstage.io/techdocs-ref: dir:.
+
+  name: test-quarkus-app
+  description: An example of a Backstage application
 spec:
   type: service
   owner: janus-authors
