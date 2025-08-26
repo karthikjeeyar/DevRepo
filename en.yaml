@@ -4,4 +4,4 @@ metadata:
   name: en-translations
 spec:
   type: url
-  target: https://raw.githubusercontent.com/karthikjeeyar/DevRepo/translations/en.json
+  target: https://raw.githubusercontent.com/karthikjeeyar/DevRepo/refs/heads/master/en.json
