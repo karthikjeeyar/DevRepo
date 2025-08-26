@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: en-translations
+spec:
+  type: url
+  target: https://raw.githubusercontent.com/karthikjeeyar/DevRepo/translations/en.json
