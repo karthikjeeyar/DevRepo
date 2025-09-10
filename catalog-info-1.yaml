@@ -27,7 +27,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
   tags:
     - core
-  name: test-quarkus-app
+  name: test-application
   description: An example of a Backstage application
 spec:
   type: service
