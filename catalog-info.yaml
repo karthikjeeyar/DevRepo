@@ -25,11 +25,12 @@ metadata:
     #'jfrog-artifactory/image-name':  helloworld
     npm/package: react
     backstage.io/techdocs-ref: dir:.
-
+  tags:
+    - java
   name: test-quarkus-app
   description: An example of a Backstage application
 spec:
   type: service
   owner: janus-authors
   lifecycle: production
-  tags: ['custom']
+
