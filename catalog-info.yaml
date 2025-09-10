@@ -32,3 +32,4 @@ spec:
   type: service
   owner: janus-authors
   lifecycle: production
+  tags: ['custom']
