@@ -17,7 +17,7 @@ metadata:
     'quay.io/repository-slug':  janus-idp/backstage-showcase
     'jenkins.io/job-full-name': 'calculator-app-pipeline'
     'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
-    npm/package: '@backstage/plugin-catalog-reacts'
+    npm/package: '@backstage/plugin-catalog-react'
     npm/registry: npmjs
 
     backstage.io/techdocs-ref: dir:.
@@ -42,5 +42,6 @@ spec:
   type: service
   owner: janus-authors
   lifecycle: production
+
 
 
