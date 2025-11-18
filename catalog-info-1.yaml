@@ -40,6 +40,6 @@ kind: System
 metadata:
 
   name: test-quarkus-app1
-  title: Quarkus app
+  title: Quarkus app update
 spec:
   owner: karthikjeeyar
