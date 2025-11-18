@@ -33,3 +33,12 @@ spec:
   type: service
   owner: janus-authors
   lifecycle: production
+  ---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+     test:
+  name: test-quarkus-app1
+  title: Quarkus app
+spec:
+  owner: karthikjeeyar
