@@ -11,7 +11,8 @@ metadata:
     'backstage.io/kubernetes-id': test-app
     # 'backstage.io/kubernetes-namespace': rhd-test
 
-
+    jira/project-key: TA
+    
     'tekton.dev/build-namespace': quarkus-app-dev
     'janus-idp.io/tekton': quarkus-app
     'quay.io/repository-slug':  janus-idp/backstage-showcase
@@ -42,6 +43,7 @@ spec:
   type: service
   owner: janus-authors
   lifecycle: production
+
 
 
 
