@@ -13,8 +13,8 @@ metadata:
 
     jira/project-key: TA
     
-    'tekton.dev/build-namespace': quarkus-app-dev
-    'janus-idp.io/tekton': quarkus-app
+    # 'tekton.dev/build-namespace': quarkus-app-dev
+    'janus-idp.io/tekton': test-app
     'quay.io/repository-slug':  janus-idp/backstage-showcase
     'jenkins.io/job-full-name': 'calculator-app-pipeline'
     'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
@@ -43,6 +43,7 @@ spec:
   type: service
   owner: janus-authors
   lifecycle: production
+
 
 
 
