@@ -1,4 +1,15 @@
-steps:
+
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+# some metadata about the template itself
+metadata:
+  name: notify-template
+  title: Notification Template
+  description: Send a notification
+spec:
+  owner: karthikjeeyar
+  type: service
+  steps:
   - id: notify
     name: Notify
     action: notification:send
