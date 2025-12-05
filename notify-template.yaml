@@ -1,13 +1,16 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
-# some metadata about the template itself
 metadata:
-  name: notify-template
+  name: react-template
   title: Notification Template
-  description: Send a notification
+  description: send a notification
 spec:
   owner: karthikjeeyar
   type: service
+
+ 
+
+  # here's the steps that are executed in series in the scaffolder backend
   steps:
   - id: notify
     name: Notify
