@@ -23,10 +23,10 @@ metadata:
 
   links:
     # --- QUICK ACCESS BUTTONS ---
-    - url: https://github.com/internal-org/rhdh-ui-framework
+    - url: https://github.com/redhat-developer/rhdh-plugins
       title: Source Code
       icon: github
-    - url: https://company.atlassian.net/jira/software/c/projects/UI/boards/12
+    - url: https://issues.redhat.com/secure/RapidBoard.jspa?rapidView=17761
       title: Jira Board
       icon: dashboard
     - url: https://slack.com/app_redirect?channel=rhdh-ui-support
