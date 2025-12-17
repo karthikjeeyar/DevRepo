@@ -39,5 +39,5 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: rhdh-ui-team # The GitHub team name
+  owner: group:default/ui-team
   system: platform-experience
