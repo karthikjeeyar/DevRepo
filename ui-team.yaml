@@ -37,7 +37,7 @@ metadata:
       icon: help
 
 spec:
-  type: library
+  type: website
   lifecycle: production
   owner: group:default/ui-team
   system: platform-experience
