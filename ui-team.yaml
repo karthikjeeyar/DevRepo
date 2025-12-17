@@ -17,6 +17,9 @@ metadata:
     # --- SLACK INTEGRATION ---
     # Used by the Notifications plugin or custom Slack cards
     slack.com/channel-id: C1234567890  # Recommended: ID is more stable than name
+
+
+    quay.io/repository-slug: rhdh-community/rhdh
     
     # --- DOCUMENTATION ---
     backstage.io/techdocs-ref: dir:.
