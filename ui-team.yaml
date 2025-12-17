@@ -30,7 +30,7 @@ metadata:
       title: Jira Board
       icon: dashboard
     - url: https://slack.com/app_redirect?channel=rhdh-ui-support
-      title: #rhdh-ui-support
+      title: rhdh-ui-support
       icon: chat
     - url: https://www.patternfly.org/
       title: PatternFly Design System
