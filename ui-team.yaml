@@ -1,0 +1,44 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rhdh-ui
+  title: RHDH UI Team
+  description: Core PatternFly components and theme plugins for Red Hat Developer Hub.
+  
+  annotations:
+    # --- GITHUB INTEGRATION ---
+    # Powers the "GitHub" tab (PRs, Issues, Releases)
+    github.com/project-slug: redhat-developer/rhdh-plugins
+    
+    # --- JIRA INTEGRATION ---
+    # Powers the "Jira" card (Ticket counts, status, and board link)
+    jira/project-key: RHIDP
+    jira/component: UI  # Optional: filters for specific Jira components
+
+    # --- SLACK INTEGRATION ---
+    # Used by the Notifications plugin or custom Slack cards
+    slack.com/channel-id: C1234567890  # Recommended: ID is more stable than name
+    
+    # --- DOCUMENTATION ---
+    backstage.io/techdocs-ref: dir:.
+
+  links:
+    # --- QUICK ACCESS BUTTONS ---
+    - url: https://github.com/internal-org/rhdh-ui-framework
+      title: Source Code
+      icon: github
+    - url: https://company.atlassian.net/jira/software/c/projects/UI/boards/12
+      title: Jira Board
+      icon: dashboard
+    - url: https://slack.com/app_redirect?channel=rhdh-ui-support
+      title: #rhdh-ui-support
+      icon: chat
+    - url: https://www.patternfly.org/
+      title: PatternFly Design System
+      icon: help
+
+spec:
+  type: library
+  lifecycle: production
+  owner: rhdh-ui-team # The GitHub team name
+  system: platform-experience
