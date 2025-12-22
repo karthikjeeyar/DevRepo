@@ -31,7 +31,8 @@ metadata:
 
     #'nexus-repository-manager/docker.image-name': sample/helloworld
 
-    # 'jfrog-artifactory/image-name':  testimage
+    'jfrog-artifactory/image-name':  testimage
+    'jfrog-artifactory/repo-filter':  test
 
   name: test-app
   description: An example of a Backstage application.
@@ -43,6 +44,7 @@ spec:
   type: service
   owner: janus-authors
   lifecycle: production
+
 
 
 
