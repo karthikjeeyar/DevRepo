@@ -3,7 +3,7 @@ kind: Component
 metadata:
   annotations:
     ## Scorecard annotations
-    github.com/project-slug: janus-qe/RHDH-scorecard-plugin-test
+    github.com/project-slug: redhat-developer/rhdh-plugins
     backstage.io/source-location: url:https://github.com/janus-qe/RHDH-scorecard-plugin-test
     jira/project-key: RHIDP
     
@@ -46,8 +46,9 @@ metadata:
   #   backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: team-a
+  owner: user:development/guest
   lifecycle: production
+
 
 
 
