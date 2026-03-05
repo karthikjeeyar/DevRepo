@@ -21,7 +21,7 @@ metadata:
     'janus-idp.io/tekton': test-app
     'quay.io/repository-slug':  janus-idp/backstage-showcase
     'jenkins.io/job-full-name': 'calculator-app-pipeline'
-    'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
+     #'github.com/project-slug': 'karthikjeeyar/GHA-matrix-workflow'
     npm/package: '@backstage/plugin-catalog-react'
     npm/registry: npmjs
 
@@ -48,6 +48,7 @@ spec:
   type: service
   owner: team-a
   lifecycle: production
+
 
 
 
