@@ -2,6 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
+    ## Scorecard annotations
+    github.com/project-slug: janus-qe/RHDH-scorecard-plugin-test
+    backstage.io/source-location: url:https://github.com/janus-qe/RHDH-scorecard-plugin-test
+    jira/project-key: RHIDP
+    
+    
     #'gitlab.com/instance': 'gitlab-gitlab.apps.cluster-7s5b7.sandbox2830.opentlc.com'
     #'gitlab.com/project-slug': development/quarkus-app
     # 'argocd/instance-name': 'default'
@@ -11,8 +17,6 @@ metadata:
     'backstage.io/kubernetes-id': test-app
     # 'backstage.io/kubernetes-namespace': rhd-test
 
-    jira/project-key: TA
-    
     # 'tekton.dev/build-namespace': quarkus-app-dev
     'janus-idp.io/tekton': test-app
     'quay.io/repository-slug':  janus-idp/backstage-showcase
@@ -44,6 +48,7 @@ spec:
   type: service
   owner: team-a
   lifecycle: production
+
 
 
 
