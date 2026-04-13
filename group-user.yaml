@@ -11,6 +11,18 @@ spec:
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-b
+  description: Temp Team B
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: karthik@redhat.com
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: karthikjeeyar
@@ -18,5 +30,5 @@ spec:
   profile:
     # Intentional no displayName for testing
     email: karthik@redhat.com
-  memberOf: [team-a]
+  memberOf: [team-a, team-b]
 ---
