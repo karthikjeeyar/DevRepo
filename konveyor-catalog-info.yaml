@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-java-service
+  namespace: default
+  annotations:
+    mta-url: https://tackle-konveyor-tackle.apps.rosa.a884a-bevd6-9wu.itpy.p3.openshiftapps.com
+    issues-url: https://tackle-konveyor-tackle.apps.rosa.a884a-bevd6-9wu.itpy.p3.openshiftapps.com/issues
+    tasks-url: https://tackle-konveyor-tackle.apps.rosa.a884a-bevd6-9wu.itpy.p3.openshiftapps.com/tasks
+  application:
+    id: 1
+    name: my-java-service
+spec:
+  type: service
+  owner: user:development/guest
+  lifecycle: experimental
