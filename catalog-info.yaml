@@ -24,7 +24,7 @@ metadata:
     #'nexus-repository-manager/docker.image-name': sample/helloworld
     #'jfrog-artifactory/image-name':  helloworld
     npm/package: react
-    backstage.io/techdocs-ref: dir:.
+    # backstage.io/techdocs-ref: dir:.
   tags:
     - java
   links:
