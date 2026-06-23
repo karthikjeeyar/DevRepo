@@ -5,6 +5,7 @@ metadata:
 spec:
   profile:
     displayName: Karthik Jeeyar
+    email: kjeeyar@redhat.com
   memberOf: 
      - janus-authors
      - rhdh-team230920382098309280
