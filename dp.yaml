@@ -10,7 +10,7 @@ metadata:
 
 
     # Orchestrator
-    orchestrator.io/workflows: '[deploy_to_staging,deploy_to_production]'
+    orchestrator.io/workflows: '[test-prepopulate-query-params]'
     
     
     # 'gitlab.com/instance': 'gitlab-gitlab.apps.cluster-7s5b7.sandbox2830.opentlc.com'
